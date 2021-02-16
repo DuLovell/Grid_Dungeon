@@ -16,8 +16,8 @@ TagManager:
   - Background_Base
   - Background_Walls
   - Characters
-  - 
-  - 
+  - Floor
+  - BlockingLayer
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
     locked: 0
   - name: Characters
     uniqueID: 1914292775
+    locked: 0
+  - name: Floor
+    uniqueID: 1915838553
     locked: 0
