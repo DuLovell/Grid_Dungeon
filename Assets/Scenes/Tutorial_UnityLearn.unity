@@ -268,6 +268,9 @@ MonoBehaviour:
   - {fileID: 3450497582366360017, guid: 1f287d51a72f98b4d8cabbf4b28aaf22, type: 3}
   wallTiles:
   - {fileID: 1384153464656832823, guid: 4fa4fe7d0f790f042abaa14f2ae21084, type: 3}
+  enemyTiles:
+  - {fileID: 5133400188003260197, guid: d365226b37586f747ab4ce271f3fa2b3, type: 3}
+  exit: {fileID: 4512365733670096886, guid: ab19e71b9fd84d34b8a910edf79274a0, type: 3}
 --- !u!4 &908343029
 Transform:
   m_ObjectHideFlags: 0
@@ -353,6 +356,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7343192388741510051, guid: 5886423bdf56c7a49b80541620bbe321,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7343192388741510051, guid: 5886423bdf56c7a49b80541620bbe321,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1152033449
       objectReference: {fileID: 0}
     - target: {fileID: 7343192388741510051, guid: 5886423bdf56c7a49b80541620bbe321,
         type: 3}

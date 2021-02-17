@@ -35,6 +35,10 @@ public class Manager_Board : MonoBehaviour
     [SerializeField] GameObject[] floorTiles;
 
     [SerializeField] GameObject[] wallTiles;
+
+    [SerializeField] GameObject[] enemyTiles;
+
+    [SerializeField] GameObject exit;
     #endregion
 
     List<Vector3> gridPositions = new List<Vector3>();
@@ -118,10 +122,13 @@ public class Manager_Board : MonoBehaviour
         BoardSetup();
         InitialiseList();
         LayoutObjectAtRandom(wallTiles, wallCount.minimum, wallCount.maximum);
+        int enemyCount = (int)Mathf.Log(level, 2f);
+        LayoutObjectAtRandom(enemyTiles, enemyCount, enemyCount);
+        Instantiate(exit, new Vector3(columns - 1, rows - 1, 0f), Quaternion.identity);
     }
 
     private void Start()
     {
-        SetupScene(1);
+        SetupScene(4);
     }
 }
