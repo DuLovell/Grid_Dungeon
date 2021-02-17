@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: 09e9b84172bee0a418fe64a58cda3151
+guid: 4b71b7ad042a6fb43a930e7107571868
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1990794620062644617
-    second: Characters_Hero
+      213: -510141201548531109
+    second: Tiles_Wall_Single_Damaged
   - first:
-      213: 7621015328016663958
-    second: Characters_Ally_Grass
-  - first:
-      213: 8075312235478184248
-    second: Characters_Ally_Fire
-  - first:
-      213: -1971060082870483257
-    second: Characters_Enemy
-  - first:
-      213: -4575092468835118034
-    second: Characters_Ally_Water
+      213: 6129320239627546985
+    second: Tiles_Wall_Single_Default
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -114,106 +105,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Characters_Hero
+      name: Tiles_Wall_Single_Damaged
       rect:
         serializedVersion: 2
-        x: 167
-        y: 204
-        width: 23
-        height: 18
-      alignment: 9
-      pivot: {x: 0.65, y: 0.43}
+        x: 176
+        y: 224
+        width: 16
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 776486a37d64f54e0800000000000000
-      internalID: -1990794620062644617
+      spriteID: b5aa860b74d9be8f0800000000000000
+      internalID: -510141201548531109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Characters_Ally_Grass
+      name: Tiles_Wall_Single_Default
       rect:
         serializedVersion: 2
-        x: 196
-        y: 204
-        width: 17
-        height: 20
-      alignment: 9
-      pivot: {x: 0.4999991, y: 0.4120568}
+        x: 144
+        y: 224
+        width: 16
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6958d3e101943c960800000000000000
-      internalID: 7621015328016663958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Characters_Ally_Fire
-      rect:
-        serializedVersion: 2
-        x: 217
-        y: 204
-        width: 17
-        height: 20
-      alignment: 9
-      pivot: {x: 0.4999982, y: 0.4120568}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 831fa0e71b5411070800000000000000
-      internalID: 8075312235478184248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Characters_Enemy
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 182
-        width: 21
-        height: 19
-      alignment: 9
-      pivot: {x: 0.25, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c68d893c4365a4e0800000000000000
-      internalID: -1971060082870483257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Characters_Ally_Water
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 182
-        width: 17
-        height: 20
-      alignment: 9
-      pivot: {x: 0.4999991, y: 0.4120568}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e249484b3a10280c0800000000000000
-      internalID: -4575092468835118034
+      spriteID: 961bc9d8848bf0550800000000000000
+      internalID: 6129320239627546985
       vertices: []
       indices: 
       edges: []

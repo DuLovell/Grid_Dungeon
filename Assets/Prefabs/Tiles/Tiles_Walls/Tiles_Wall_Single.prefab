@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 3740310873410753697}
   - component: {fileID: 6132577416420849671}
   - component: {fileID: 3570400500009497892}
-  - component: {fileID: 5870710829903599001}
+  - component: {fileID: -3972996906005263698}
+  - component: {fileID: 3933515939538194529}
   m_Layer: 12
   m_Name: Tiles_Wall_Single
   m_TagString: Untagged
@@ -150,7 +151,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9412f32dfa0926d4698e540074c50a14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!50 &5870710829903599001
+--- !u!114 &-3972996906005263698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384153464656832823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4527da2f37e840247a67630e9d5ae90b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmgSprite: {fileID: -510141201548531109, guid: 4b71b7ad042a6fb43a930e7107571868,
+    type: 3}
+  hp: 4
+--- !u!50 &3933515939538194529
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0

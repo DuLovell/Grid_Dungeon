@@ -95,8 +95,8 @@ public class Manager_Board : MonoBehaviour
     {
         int randomIndex = Random.Range(0, gridPositions.Count);
 
-        if (size == 2 && randomIndex != gridPositions.Count - 1)
-            gridPositions.RemoveAt(randomIndex + 1);
+        //if (size == 2 && randomIndex != gridPositions.Count - 1)
+        //    gridPositions.RemoveAt(randomIndex + 1);
 
         Vector3 randomPosition = gridPositions[randomIndex];
         gridPositions.RemoveAt(randomIndex);
@@ -121,14 +121,11 @@ public class Manager_Board : MonoBehaviour
     {
         BoardSetup();
         InitialiseList();
+        Debug.Log(gridPositions.Count);
         LayoutObjectAtRandom(wallTiles, wallCount.minimum, wallCount.maximum);
         int enemyCount = (int)Mathf.Log(level, 2f);
+        Debug.Log(gridPositions.Count);
         LayoutObjectAtRandom(enemyTiles, enemyCount, enemyCount);
         Instantiate(exit, new Vector3(columns - 1, rows - 1, 0f), Quaternion.identity);
-    }
-
-    private void Start()
-    {
-        SetupScene(4);
     }
 }

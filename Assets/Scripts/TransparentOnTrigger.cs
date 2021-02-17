@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Wall : MonoBehaviour
+public class TransparentOnTrigger : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;
     Color spriteRendererColor;
