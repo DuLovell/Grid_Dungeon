@@ -27,13 +27,17 @@ public class Character_Controller : MonoBehaviour
             
             if (Mathf.Abs(horizontalInput) == 1f)
             {
-                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(horizontalInput, 0f, 0f), 0.1f, noMovementLayer))
+                Collider2D potentialCollisionCollider = Physics2D.OverlapCircle(movePoint.position + new Vector3(horizontalInput, 0f, 0f), 0.1f, noMovementLayer);
+                
+                if (!potentialCollisionCollider || potentialCollisionCollider.isTrigger)
                     movePoint.position += new Vector3(horizontalInput, 0f, 0f);
                 
             }
             else if (Mathf.Abs(verticalInput) == 1f)
             {
-                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, verticalInput, 0f), 0.2f, noMovementLayer))
+                Collider2D potentialCollisionCollider = Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, verticalInput, 0f), 0.2f, noMovementLayer);
+
+                if (!potentialCollisionCollider || potentialCollisionCollider.isTrigger)
                     movePoint.position += new Vector3(0f, verticalInput, 0f);
             }
         }
